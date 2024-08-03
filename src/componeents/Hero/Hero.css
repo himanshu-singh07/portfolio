@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Outfit&family=Poppins&display=swap');
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0;
+    background-color: #0f274b;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.hero-left{
+    box-sizing: border-box;
+   color: white;
+   row-gap: 15px;
+   margin-left: 10rem;
+   margin-top: 2rem;
+   
+}
+.hero-left h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom:1rem ;
+    font-family:'fondamento' ;
+
+}
+.hero-left p{
+    font-size: 12px;
+    gap: 5px;
+    font-weight: lighter;
+
+}
+.hero-right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.hero-right .image {
+    padding-top: 45vh;
+    padding-right: 1px;
+}
+.other-image{
+    display: flex;
+    justify-content: space-around;
+    border: line solid gray;
+    padding: 20px;
+    box-shadow: none;
+}
+
+.hero-right .avtar-image{
+    height: 55vh;
+    width: 42vh;
+    padding: 1rem;
+    border-radius: 10%
+    
+}
+

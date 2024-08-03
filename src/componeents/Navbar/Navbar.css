@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Outfit&family=Poppins&display=swap');
+.navbar{
+    background-color: #0d1f3b;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left h3{
+    font-family: 'Fondamento';
+    padding-left: 5rem;
+    font-size: 2rem;
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 5rem;
+    
+}
+
+.navbar-left
+.navbar-right ul{
+    display: flex;
+    justify-content: space-between;
+   
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-right ul a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navbar-right button{
+    
+    border-radius: 5px  ;
+    border: #0d1f3b;
+    font-weight: bolder;
+
+}
+
+@media (max-width:750px){
+    .navbar-right ul {
+        display: none;
+    }
+}
